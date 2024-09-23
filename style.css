@@ -1,0 +1,237 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Roboto Slab", system-ui;
+    box-sizing: border-box;
+}
+#container{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 80px;
+}
+.logo{
+    width: 100px;
+}
+.list-items{
+    list-style: none;
+    display: inline;
+    margin: 0px 20px;
+}
+.list{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+.list:hover{
+    text-decoration: underline;
+    color: red;
+}
+.home-content{
+    margin: 13% 0px 0px 8%;
+}
+#username{
+    font-size: 50px;
+    margin-bottom: 20px;
+    font-family: "Playwrite CU", system-ui;
+}
+#Iname{
+    font-family: "Playwrite CU", system-ui;
+    color: rgb(81, 81, 18);
+}
+#user-details{
+    line-height: 1.2;
+}
+.download{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    display: inline-block;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+.home-img{
+    /* border: solid; */
+    width: 45%;
+    height: 75%;
+    position: absolute;
+    bottom: 0px;
+    right: 30px;
+}
+.group1{
+    /* border: solid; */
+    position: absolute;
+    height: 100%;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.home-img:hover #shape{
+bottom: 70px;
+}
+.home-img:hover #girl{
+    left:30%
+}
+#about{
+    margin: 15% 8% 0px 8%;
+}
+.sectionHead{
+    text-align: center;
+}
+#mainHead{
+    font-size: 30px;
+}
+#subHead{
+    color: green;
+    font-size: 20px;
+}
+.aboutBody
+{
+    margin: 20px ;
+    display: grid;
+    gap: 50px;
+    grid-template-columns:repeat(2,1fr);
+    align-items: center;
+}
+.Img1{
+    width: 80%;
+}
+.aboutContent{
+    font-size: 20px;
+    text-align: justify;
+}
+.information{
+    margin-top: 1.2rem;
+}
+.infobox{
+    margin-top: 1rem;
+
+}
+.infobox>span{
+    margin-left: 10px;
+}
+#skill{
+    margin: 8% 8% 0% 8%;
+}
+.skillcontent{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    /* gap: 0rem; */
+    margin-top: 20px;
+}
+.bars{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding: 1rem 0px;
+}
+.mainHead, .barpercentage{
+    font-weight: 500px;
+    font-size: 1.3rem;
+}
+.baseBar{
+    width: 100%;
+    height: 0.5rem;
+    background-color: black;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 0px;
+}
+.htmlBar{
+    background-color: orange;
+    width: 89%;
+}
+.cssBar{
+    background-color: orange;
+    width: 95%;
+}
+.jsBar{
+    background-color: orange;
+    width: 80%;
+}
+.reactBar{
+    background-color: orange;
+    width: 75%;
+}
+#contact{
+    margin: 8% 8% 0px 8%;
+}
+.iconcollection{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+.icon{
+    width: 50px;
+    height: 50px;
+    /* border: solid; */
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 5px 0px 5px;
+}
+.brands{
+    color: black;
+    font-size: 2rem;
+}
+.icon:hover{
+    background-image: linear-gradient(to right,red,green);
+}
+.icon:hover .brands{
+    color: white;
+    animation: rotate 3s;
+}
+@keyframes rotate{
+    0%{
+        transform: rotate(40deg)
+    }
+    20%{
+        transform: rotate(-40deg)
+    }
+    40%{
+        transform: rotate(40deg)
+    }
+    60%{
+        transform: rotate(-40deg)
+    }
+    80%{
+        transform: rotate(40deg)
+    }
+    1000%{
+        transform: rotate(- 40deg)
+    }
+}
+footer{
+    margin-top: 8%;
+}
+#copyright{
+    font-weight: 600;
+    text-align: center;
+}
+.UpArrow{
+    float: right;
+    margin: -30px 20px 0px 0px;
+}
+html{
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar{
+    width: 10px;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-track{
+    background-color: azure;
+}
+::-webkit-scrollbar-thumb{
+    background-color: orange;
+    border-radius: 10px;
+}

@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #33ccff}
+header{
+    display: flex;
+    flex-direction: row;
+
+    text-align: center;
+    justify-content: center;
+}
+.logoimg{
+    width: 75px;
+    top: 0px;
+    left: 0p;
+    position: absolute;
+}
+.list{
+    justify-content: center;
+    text-align: center;
+    display: inline;
+    margin-left: 25px;
+    font-size: 25px;
+}
+.search{
+    position: absolute;
+    top: 4px;
+    right: 143px;
+}
+.searchtbn{
+    height: 35px;
+    border-radius: 0px;
+    border:none ;
+
+}
+.searchicon {
+    position: absolute;
+    top: 0px;
+    right: 1px;
+    height: 38px;
+    border: none;
+    width: 34px;
+    background-color: yellow;
+}
+.cart{
+    position: absolute;
+    top: 7px;
+    right: 40px;
+    font-size: 25px;
+}
+#carticon{
+    position: absolute;
+    top: 9px;
+    right: -1px;
+}
+#carttext{
+    position: absolute;
+    top: 1px;
+    right: 36px;
+}
+.maintext{
+    text-align: center;
+    justify-content: center;
+    line-height: 30px;
+    margin-top: 100px;
+}
+table{
+    padding: 100px;
+    background-color: white;
+    position: relative;
+    margin-top: 100px;
+    margin-left: 213px;
+    width: 962px;
+    height: 100px;
+    border-spacing: 10px;
+
+}
+img{
+
+    width: 300px;
+}
+.img3{
+    width: 300px;
+    height: 450px;
+}
+.img5{
+    width: 305px;
+    height: 450px;
+}
+footer{
+    width: 100%;
+    height: 300px;
+    border: solid;
+}
+#footerimg{
+    width: 75px;
+}
+#footer{
+    display: flex;
+}
